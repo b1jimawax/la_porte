@@ -5,7 +5,10 @@
     font-family: 'Courier New', Courier, monospace;
 }
 .menu{
+    top:0px;
     height: 70px;
+    position: fixed;
+    width: 100vw;
     background-color:red;
     display: flex;
     align-items: center;
@@ -33,6 +36,7 @@
 .main{
     width: 80%;
     margin: auto;
+    top: 80px;
 }
 .section1{
     display: flex;
